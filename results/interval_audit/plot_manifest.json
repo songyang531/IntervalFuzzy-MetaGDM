@@ -1,0 +1,11 @@
+{
+  "source_summary_sha256": "ac09f7fac31027a4bb696eb6530f67d3a729988189cc64e61cadf607a1a5f092",
+  "figures": {
+    "fig01_width_stress_success_auc.png": "cf58d04a3c4d7eebeb807e90dd2a70315617ed0bfa8edb291952f42876941018",
+    "fig02_center_width_endpoint_consensus.png": "5270d886ed8212ab0aa3a12984259950cb409cae1ce480a9747d3b6ec97eb5ff",
+    "fig03_width_ceiling_reachability.png": "3f65babdb941decd43f53793f52109d0317a2c43b97c31c76c02aff17e134043",
+    "fig04_history_causal_ablation.png": "a111599ebbd65bbc204072b2c3be8e1f6b29aac78f16b218df4077c4295713e4"
+  },
+  "smoothing": "none",
+  "interpolation": "none"
+}

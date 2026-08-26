@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local environments and caches
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Recreated experiment outputs
+revision_results/
+logs/
+tmp/
+outputs/
+
+# Large trajectory traces are deliberately excluded from the release
+trajectories.csv
+

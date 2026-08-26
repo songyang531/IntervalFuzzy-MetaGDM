@@ -1,0 +1,17 @@
+{
+  "schema": "hidden_heterogeneity_context_ablation_v1_public",
+  "training_performed": false,
+  "deterministic_eval_mode": true,
+  "checkpoint": "../../checkpoints/meta_gdm_social_attention_ctxlearned_z8_cw10_h4_lr0p0003_ep5000_seed20260507_1df7dc5b_interval_only_5000.pth",
+  "checkpoint_sha256": "7127330b0a3d1ec408f27b7617317c3ea13b87fba3d6542534f05fa490623d1e",
+  "device": "cuda",
+  "scenario": "hidden_heterogeneity",
+  "agents": [10, 40, 100],
+  "episodes_per_cell": 50,
+  "context_modes": ["Real history", "Zero history"],
+  "raw_rows": 300,
+  "paired_protocol": "same environment seed; only encoder context differs",
+  "confidence_interval": "paired 10000-draw percentile bootstrap",
+  "stage1_real_history_reproduction_max_abs_error": 5.684341886080802e-14
+}
+

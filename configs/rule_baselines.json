@@ -1,0 +1,134 @@
+{
+  "mode": "baselines",
+  "checkpoint": "./logs/checkpoint_ep6000.pth",
+  "skip_meta": true,
+  "case_csv": null,
+  "agents": [
+    10,
+    40,
+    100
+  ],
+  "train_agents": 10,
+  "episodes": 50,
+  "train_episodes": 5000,
+  "max_steps": 120,
+  "threshold": 0.9,
+  "seed": 20260507,
+  "opinion_range": [
+    0.1,
+    0.9
+  ],
+  "stubbornness_range": [
+    0.1,
+    0.9
+  ],
+  "cost_range": [
+    0.1,
+    0.9
+  ],
+  "interval_half_width_range": [
+    0.02,
+    0.08
+  ],
+  "device": "cuda",
+  "context_window": 10,
+  "num_heads": 4,
+  "context_mode": "learned",
+  "aggregation": "social_attention",
+  "attention_aggregations": [
+    "social_attention",
+    "standard_mha",
+    "mean_pooling",
+    "no_attention"
+  ],
+  "lr": 0.0003,
+  "gamma": 0.95,
+  "tau": 0.01,
+  "alpha": 0.1,
+  "checkpoint_tag": "",
+  "warmup_fraction": 0.03,
+  "curriculum_thresholds": [
+    0.7,
+    0.8,
+    0.85,
+    0.9
+  ],
+  "curriculum_step_fracs": [
+    0.75,
+    0.8333333333333334,
+    0.9166666666666666,
+    1.0
+  ],
+  "z_dims": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "cost_coefficients": [
+    25.0,
+    50.0,
+    75.0,
+    100.0
+  ],
+  "boundary_penalties": [
+    10.0,
+    20.0,
+    40.0
+  ],
+  "consensus_weights": [
+    25.0,
+    50.0,
+    100.0
+  ],
+  "fairness_weights": [
+    0.0,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "outlier_weights": [
+    0.5,
+    2.0,
+    5.0
+  ],
+  "cost_powers": [
+    1.5,
+    2.0,
+    3.0
+  ],
+  "reward_sweep": [
+    "cost",
+    "boundary"
+  ],
+  "context_windows": [
+    5,
+    10,
+    20
+  ],
+  "attention_heads": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "learning_rates": [
+    0.0001,
+    0.0003,
+    0.001
+  ],
+  "training_sweep": [
+    "context_window",
+    "attention_heads",
+    "learning_rate"
+  ],
+  "rl_algorithms": [
+    "SAC",
+    "PPO",
+    "DDPG"
+  ],
+  "torch_available": true,
+  "torch_version": "2.6.0+cu126",
+  "cuda_available": true
+}

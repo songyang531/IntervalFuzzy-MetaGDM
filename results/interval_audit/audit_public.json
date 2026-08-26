@@ -1,0 +1,29 @@
+{
+  "schema": "existing_interval_checkpoint_zero_training_audit_v1_public",
+  "checkpoint": "../../checkpoints/meta_gdm_social_attention_ctxlearned_z8_cw10_h4_lr0p0003_ep5000_seed20260507_1df7dc5b_interval_only_5000.pth",
+  "checkpoint_sha256_before": "7127330b0a3d1ec408f27b7617317c3ea13b87fba3d6542534f05fa490623d1e",
+  "checkpoint_sha256_after": "7127330b0a3d1ec408f27b7617317c3ea13b87fba3d6542534f05fa490623d1e",
+  "model_state_sha256_before": "a8a08750085392b12a6a5245091faf3f230445d9acd9fe2a9ce89f1af31b49ef",
+  "model_state_sha256_after": "a8a08750085392b12a6a5245091faf3f230445d9acd9fe2a9ce89f1af31b49ef",
+  "training_or_update_calls": 0,
+  "all_modules_eval_mode": true,
+  "torch_inference_mode": true,
+  "episodes_per_condition_and_size": 50,
+  "total_episodes": 900,
+  "total_transitions": 38321,
+  "member_counts": [10, 40, 100],
+  "width_regimes": {
+    "crisp_limit": [0.0, 0.0],
+    "narrow": [0.01, 0.04],
+    "trained_support": [0.02, 0.08],
+    "wide_ood": [0.08, 0.16]
+  },
+  "history_modes": ["real", "zero", "shuffled"],
+  "random_seed": 20260507,
+  "max_steps": 120,
+  "consensus_threshold": 0.9,
+  "device": "cuda",
+  "torch_version": "2.6.0+cu126",
+  "cuda_available": true
+}
+

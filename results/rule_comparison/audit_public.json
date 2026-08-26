@@ -1,0 +1,32 @@
+{
+  "schema": "stage1_frozen_meta_vs_fair_rules_v1_public",
+  "checkpoint": "../../checkpoints/meta_gdm_social_attention_ctxlearned_z8_cw10_h4_lr0p0003_ep5000_seed20260507_1df7dc5b_interval_only_5000.pth",
+  "checkpoint_sha256": "7127330b0a3d1ec408f27b7617317c3ea13b87fba3d6542534f05fa490623d1e",
+  "checkpoint_training_episodes": 5000,
+  "training_performed": false,
+  "deterministic_eval_mode": true,
+  "device": "cuda",
+  "base_seed": 20260507,
+  "episodes_per_cell": 50,
+  "agents": [10, 40, 100],
+  "models": [
+    "Interval Meta-GDM",
+    "Bounded confidence",
+    "Mean consensus",
+    "Observable cost-aware",
+    "Random"
+  ],
+  "scenarios": [
+    "iid_control",
+    "hidden_heterogeneity",
+    "mid_episode_switch",
+    "noisy_partial_feedback",
+    "interval_shift"
+  ],
+  "raw_rows": 3750,
+  "cells": 75,
+  "duplicate_episode_keys": 0,
+  "paired_comparator_rule": "highest success, then highest total reward",
+  "confidence_interval": "paired 10000-draw percentile bootstrap"
+}
+

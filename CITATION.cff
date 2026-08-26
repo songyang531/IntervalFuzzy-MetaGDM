@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or the accompanying results, please cite this repository."
+title: "IntervalFuzzy-MetaGDM: A Group Consensus Method for Interval-Valued Fuzzy Preferences Based on Context Encoding and Social Attention"
+type: software
+authors:
+  - family-names: "Song"
+    given-names: "Yang"
+  - family-names: "Cao"
+    given-names: "Mingshuo"
+  - family-names: "Wu"
+    given-names: "Jian"
+  - family-names: "Chiclana"
+    given-names: "Francisco"
+repository-code: "https://github.com/songyang531/IntervalFuzzy-MetaGDM"
+url: "https://github.com/songyang531/IntervalFuzzy-MetaGDM"
+version: "1.0.0"
+date-released: "2026-08-26"
+
