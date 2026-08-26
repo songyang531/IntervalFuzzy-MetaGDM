@@ -2,7 +2,7 @@
 
 ## 1. 环境
 
-论文实验使用 Python、PyTorch、NumPy、pandas、SciPy、Matplotlib、Seaborn 和 scikit-learn。已记录环境为 PyTorch `2.6.0+cu126`，但代码不依赖特定显卡型号。
+论文实验使用 Python、PyTorch、NumPy、pandas 和 Matplotlib。已记录环境为 PyTorch `2.6.0+cu126`，但代码不依赖特定显卡型号。
 
 ```powershell
 python -m venv .venv
