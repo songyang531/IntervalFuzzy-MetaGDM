@@ -77,7 +77,7 @@ python scripts/run_hidden_heterogeneity_context_ablation.py
 
 ## 6. 表格与图形
 
-论文同构表格的发布副本位于 `results/tables/`。参考实验图位于 `figures/reference_experiments/`，当前论文图位于 `figures/paper/`。
+论文表格的发布副本位于 `results/tables/`。正文实际使用的 19 张图片位于 `figures/paper/`；该目录不保留论文未引用的旧组合图或诊断图。
 
 部分制图脚本保存了原工作区目录约定。若在新克隆仓库运行，可通过命令行输出参数或将脚本中的根目录指向仓库根目录。发布 CSV 与 PNG 均可直接用于数值核验。
 

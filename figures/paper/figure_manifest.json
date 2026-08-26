@@ -1,0 +1,182 @@
+{
+  "schema": "paper_figure_manifest_v2",
+  "paper_image_count": 19,
+  "paper_path": "paper/IntervalFuzzy-MetaGDM_manuscript.docx",
+  "paper_sha256": "1cb691ea2fd09d79f2df2c396c79f4ef141a6c9c76b8220d677aa2b9aab61471",
+  "workflow_policy": "fig01_workflow.png is the user-approved English workflow used in the manuscript.",
+  "plot_policy": "No internal chart titles; black bold English labels; legends occupy reserved whitespace.",
+  "manuscript_media_verification": "All 19 PNG SHA-256 values match word/media/image1.png through image19.png in document order.",
+  "figures": [
+    {
+      "order": 1,
+      "filename": "fig01_workflow.png",
+      "size_px": [
+        1258,
+        1176
+      ],
+      "sha256": "4ca7e79561b98dff5db48971524dff6ac8086c36f818eb564a24e6b74129afc7"
+    },
+    {
+      "order": 2,
+      "filename": "fig02a_episode_reward.png",
+      "size_px": [
+        1885,
+        1073
+      ],
+      "sha256": "61e44c8a83ad6ae009dc0c2b91f92921d8dc1d262db6e96e59c9b4be05c820f9"
+    },
+    {
+      "order": 3,
+      "filename": "fig02b_final_consensus.png",
+      "size_px": [
+        1885,
+        1073
+      ],
+      "sha256": "4530e904b4b9fdb16cd820a1671ff3d93ed9657503191ce6fbac65637100ff8e"
+    },
+    {
+      "order": 4,
+      "filename": "fig02c_actor_loss.png",
+      "size_px": [
+        1885,
+        1073
+      ],
+      "sha256": "3e9eee5a94a272feb3528660f8fd85b1fe2479307de9d128d5f2cca98da465d3"
+    },
+    {
+      "order": 5,
+      "filename": "fig02d_critic_loss.png",
+      "size_px": [
+        1885,
+        1073
+      ],
+      "sha256": "32e4341fcbd369f1f71840c69bdcd24188bda7fc2dac57a4f0106cde7f336e03"
+    },
+    {
+      "order": 6,
+      "filename": "fig03a_success_rate.png",
+      "size_px": [
+        1369,
+        994
+      ],
+      "sha256": "8cb1284daa7ffa7814bc5207f7b1238182d6497a9a512fd3510e6b61d2611db6"
+    },
+    {
+      "order": 7,
+      "filename": "fig03b_convergence_rounds.png",
+      "size_px": [
+        1369,
+        994
+      ],
+      "sha256": "e4beaa1cb492063524269129a8c94186d4e1ccebed9b32bcebf00e82229eefc8"
+    },
+    {
+      "order": 8,
+      "filename": "fig03c_adjustment_cost.png",
+      "size_px": [
+        1369,
+        994
+      ],
+      "sha256": "3fef92f02cc4c2756834f3c0fefda5071f1fd17fec1968966ad8e7546aaa1a3d"
+    },
+    {
+      "order": 9,
+      "filename": "fig03d_episode_reward.png",
+      "size_px": [
+        1369,
+        994
+      ],
+      "sha256": "ea3ebf2e76011caf5df3eabb020c7f7ebdade9971d98d7220c9a4f53fa3a2779"
+    },
+    {
+      "order": 10,
+      "filename": "fig04a_success_rate.png",
+      "size_px": [
+        1399,
+        1024
+      ],
+      "sha256": "8fe6be189e2729db23532fc7eca52bfdbfdeca4c36c177ffe26e0ef021dd326f"
+    },
+    {
+      "order": 11,
+      "filename": "fig04b_convergence_steps.png",
+      "size_px": [
+        1399,
+        1024
+      ],
+      "sha256": "da7f2c3d113fd5acaf3c25a9c068951c0af23b0dc821a9e9be70b08147d54415"
+    },
+    {
+      "order": 12,
+      "filename": "fig04c_episode_reward.png",
+      "size_px": [
+        1399,
+        1024
+      ],
+      "sha256": "bdcb9de15b8b52d02912274e42b66eb74064be398e15668c2ca2b3d45f5ce474"
+    },
+    {
+      "order": 13,
+      "filename": "fig04d_adjustment_cost.png",
+      "size_px": [
+        1399,
+        1024
+      ],
+      "sha256": "7255921387a5bf6e48519bfcaaf6e17beae4f3e7058bbec3e55de451a70c2b2b"
+    },
+    {
+      "order": 14,
+      "filename": "fig05a_success_rate.png",
+      "size_px": [
+        1369,
+        994
+      ],
+      "sha256": "3181a4fb3e9f90aea031c354e3bb47ac5607edbc9b6b75481ae487b10771cddf"
+    },
+    {
+      "order": 15,
+      "filename": "fig05b_convergence_steps.png",
+      "size_px": [
+        1369,
+        994
+      ],
+      "sha256": "7f3a1cea83095f00ea0c0e069993620d890736bd51dfb9378ee2ddd0a1c40d07"
+    },
+    {
+      "order": 16,
+      "filename": "fig05c_adjustment_cost.png",
+      "size_px": [
+        1369,
+        994
+      ],
+      "sha256": "6f9289cb597eae5a0973f1c219c9abc22174c42e9cc47ea5431d724da0a0a12e"
+    },
+    {
+      "order": 17,
+      "filename": "fig05d_episode_reward.png",
+      "size_px": [
+        1369,
+        994
+      ],
+      "sha256": "7edceae9d3bab059d6c5cd4991b329a32606a999977e065fbfce6b5df78f04fe"
+    },
+    {
+      "order": 18,
+      "filename": "fig06a_center_consensus.png",
+      "size_px": [
+        1354,
+        1009
+      ],
+      "sha256": "079cba174e5974a3dd47007b7b4914c015a9ef25a698b7ea765b83116bcd7a12"
+    },
+    {
+      "order": 19,
+      "filename": "fig06b_hausdorff_consistency.png",
+      "size_px": [
+        1077,
+        1039
+      ],
+      "sha256": "f349dd9fb72fbb700c9e980634fb76e448466d0d068bf9b5a5391660c1e33284"
+    }
+  ]
+}
