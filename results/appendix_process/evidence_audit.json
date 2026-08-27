@@ -1,0 +1,47 @@
+{
+  "schema": "reference_exact_visual_evidence_v1",
+  "checkpoint": "C:\\Users\\联想\\Documents\\群决策\\tmp\\reference_interval_only_5000_seed20260507_20260822\\source\\revision_results\\checkpoints\\meta_gdm_social_attention_ctxlearned_z8_cw10_h4_lr0p0003_ep5000_seed20260507_1df7dc5b_interval_only_5000.pth",
+  "checkpoint_sha256": "7127330b0a3d1ec408f27b7617317c3ea13b87fba3d6542534f05fa490623d1e",
+  "source_files": {
+    "agent.py": "10df121655008776261a5324a8ccf073afd1ba77f045faa7130c04419754ac9b",
+    "context_utils.py": "48f581e01542a7841be770699ba23c0181b0ae2f49aaaadcae0bfda49c2e090c",
+    "env.py": "d7fb17d860b8234d3330a563bbfdb8a92d1e7b730922181b8b2db5f25ded7916",
+    "model.py": "3e83e625eb53cb6f269f16ac15a7cfae467adc8e117551d73efcd24483ad0e9c",
+    "revision_experiments.py": "d92f3a680a820a9a4f677bd78a50eb9a4bb98e1246b14008350d66e618f7f39d"
+  },
+  "seed": 20260507,
+  "latent_episodes": 50,
+  "locked_test_opened": false,
+  "model_updates": 0,
+  "evaluation_modules_forced_eval": true,
+  "polarized_definition": "two centre clusters near 0.22 and 0.78; original interval widths retained",
+  "persona_backend": "deterministic offline persona acceptance proxy; not an external LLM call",
+  "persona_success": 1,
+  "persona_steps": 5,
+  "outputs": {
+    "latent_members": {
+      "path": "C:\\Users\\联想\\Documents\\群决策\\tmp\\reference_interval_only_5000_seed20260507_20260822\\reference_exact_evidence\\latent_members.csv",
+      "sha256": "6c4cd9c8dbefb8211cae42c296692210b885591c28895299b0c394b6ecd2064d"
+    },
+    "normal_trajectories": {
+      "path": "C:\\Users\\联想\\Documents\\群决策\\tmp\\reference_interval_only_5000_seed20260507_20260822\\reference_exact_evidence\\normal_trajectories.csv",
+      "sha256": "d900ce10643233e7a9b3e12ad10fbf341ec336ce00c8c74634a77cb8716f8273"
+    },
+    "polarized_trajectories": {
+      "path": "C:\\Users\\联想\\Documents\\群决策\\tmp\\reference_interval_only_5000_seed20260507_20260822\\reference_exact_evidence\\polarized_trajectories.csv",
+      "sha256": "8a6134831f03302733a7b227ffdcec2c4e3d1f2e53d48b46a03a9897a2c5ac86"
+    },
+    "polarized_summary": {
+      "path": "C:\\Users\\联想\\Documents\\群决策\\tmp\\reference_interval_only_5000_seed20260507_20260822\\reference_exact_evidence\\polarized_summary.csv",
+      "sha256": "df8890213b3c36fb8133f4eeca1f80bc82e72e762bb784b2490cb2e5804b5871"
+    },
+    "persona_trajectory": {
+      "path": "C:\\Users\\联想\\Documents\\群决策\\tmp\\reference_interval_only_5000_seed20260507_20260822\\reference_exact_evidence\\persona_trajectory.csv",
+      "sha256": "ce67d3b29222b02e2d10660b5b5597a11c55483101f11b7231da6967612ea604"
+    },
+    "persona_steps": {
+      "path": "C:\\Users\\联想\\Documents\\群决策\\tmp\\reference_interval_only_5000_seed20260507_20260822\\reference_exact_evidence\\persona_steps.csv",
+      "sha256": "07fc273a65bb07def1708070bd1dc2a789e0d577bb38fa588de9e5777925a7a0"
+    }
+  }
+}
