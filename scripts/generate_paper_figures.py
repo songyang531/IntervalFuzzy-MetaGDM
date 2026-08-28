@@ -100,11 +100,24 @@ def grouped_bars(
         panel = frame[frame[group_col] == group].set_index(x_col)
         values = [float(panel.loc[item, value_col]) * scale for item in x_order]
         offset = (idx - (len(group_order) - 1) / 2) * width
-        ax.bar(x + offset, values, width=width, color=COLORS[idx], label=str(group))
+        legend_label = {"Mean consensus": "Mean", "Bounded confidence": "Confidence", "Observable cost-aware": "Cost-aware"}.get(str(group), str(group))
+        ax.bar(x + offset, values, width=width, color=COLORS[idx], label=legend_label)
     ax.set_xticks(x, [str(item) for item in x_order])
-    ax.set_ylabel(ylabel)
+    ax.tick_params(axis="both", labelsize=12.0)
+    ax.set_ylabel(ylabel, fontsize=12.5, fontweight="bold")
     ax.grid(axis="y")
-    ax.legend(loc="upper center", bbox_to_anchor=(0.5, 1.18), ncol=len(group_order))
+    legend_cols = len(group_order)
+    legend_y = 1.20
+    legend_font = 11.5 if len(group_order) > 2 else 12.5
+    legend_spacing = 0.75 if len(group_order) > 2 else 1.25
+    ax.legend(
+        loc="upper center",
+        bbox_to_anchor=(0.5, legend_y),
+        ncol=legend_cols,
+        fontsize=legend_font,
+        columnspacing=legend_spacing,
+        handlelength=1.35,
+    )
     return save(fig, filename)
 
 

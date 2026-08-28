@@ -18,7 +18,7 @@
         1830,
         975
       ],
-      "sha256": "d24a2847a99178ab5e7e9789d96ee462375ce72d0838111754501e933dd0fd84",
+      "sha256": "193f579535faead7a376325acd66d84b2ab997c4470d7796c439519dfdcd4516",
       "source": "scripts/generate_paper_figures.py"
     },
     {
@@ -27,133 +27,133 @@
         1829,
         975
       ],
-      "sha256": "ce2561194dd4e0042900c57038afee23ec1bf7ca98d3fe4b7983bb808b6c49a6",
+      "sha256": "aeb4eb8023735a844a7f9ffd3167760740d4d211af6630a6e0fc6ebb118c6877",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig02c_actor_loss.png",
       "size_px": [
-        1829,
+        1830,
         975
       ],
-      "sha256": "348d6b8319378c3c15e31327c947a85178df977b8c6d69d0fe39e9422fa21b30",
+      "sha256": "e40335ca5013af57dd0d4eb3c1b90db75bfa5abfb8697cd27a93e12994b81942",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig02d_critic_loss.png",
       "size_px": [
-        1829,
+        1830,
         975
       ],
-      "sha256": "7c7cbb77468ea4d5f42a7fe44a7ca92960b7a5eb0f4238b0712fd383843c2c75",
+      "sha256": "1902b7e24c0f9ac224dfa77990a290dae3fa9dff269b94be1f91ae69e622f1c7",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig03a_success_rate.png",
       "size_px": [
-        1529,
-        1012
+        1523,
+        1006
       ],
-      "sha256": "279aecc202fe352a8fa07714e8252a8d686fb5dd8e262b963f024c3d43ff278d",
+      "sha256": "12a63e33b8f6b1f2218453de2b22f2400cab372d0eddbe0b50a01a694c145b95",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig03b_convergence_rounds.png",
       "size_px": [
-        1530,
-        1012
+        1522,
+        1006
       ],
-      "sha256": "9935e807c387f027a65fdddf3190be4c29a5f7679e80bdd283e4011f4a90205a",
+      "sha256": "2e4f73c6bfae40ad7b626548dac6b21bc82209519bd1778fb86126b3a26a749d",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig03c_adjustment_cost.png",
       "size_px": [
-        1528,
-        1012
+        1520,
+        1006
       ],
-      "sha256": "c01cdb029e3a4cad662cf28cd2ace7904bcf930d7d10dd17885fdffaa03f433c",
+      "sha256": "c5fcce0dea1b1be3d0c9c497356732922105f2cf60b21ea01926d83293ab32b9",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig03d_episode_reward.png",
       "size_px": [
-        1530,
-        1012
+        1520,
+        1006
       ],
-      "sha256": "7cbe0bd670f19f6ea6d78581f77145987a66bddd10082327b9c20581dfe80f41",
+      "sha256": "f12da8c808aa0751f1ab975b8607f9b37a984bddbb041c3e52e5c3ea7768ccb0",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig04a_success_rate.png",
       "size_px": [
-        2044,
-        1013
+        1539,
+        1005
       ],
-      "sha256": "5c6ebcaae3a016a2aeda1a0e5c4f50c947148ec57866f11f9c0421cf33850640",
+      "sha256": "62989a289d37283a1f31cde8c749cf0ebd46184c6edee39e5520fd6c58d0a733",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig04b_convergence_steps.png",
       "size_px": [
-        2044,
-        1013
+        1539,
+        1005
       ],
-      "sha256": "d02c9b13b53012ace38c70a7bd7424650f16e61864a6bb2149e08804050e01c6",
+      "sha256": "42dd7d95c574d112238cb1d7daf48c991c17ba164245813f5fe5e47d5f9ad463",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig04c_episode_reward.png",
       "size_px": [
-        2044,
-        1013
+        1546,
+        1005
       ],
-      "sha256": "87ad73c6f96213098f477c03361ae952acb206cd725bbff588dc79e249295551",
+      "sha256": "77736bdd297d475aa98c31526573caf4bf6a06f93e977a052c9de0b1da2fbf84",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig04d_adjustment_cost.png",
       "size_px": [
-        2044,
-        1013
+        1539,
+        1005
       ],
-      "sha256": "f145fc97d9b960e69853c1268a8cca957498a1045a9e6d43d3a4d7a234d9b693",
+      "sha256": "71747ba3f401e3fdfd4dbec261568bd91db7e6364a9a2848cd76ead4562be079",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig05a_success_rate.png",
       "size_px": [
-        1529,
-        1013
+        1526,
+        1004
       ],
-      "sha256": "1df72fdba94f0f58209e08d30d6dcee73c69bb743e0687f8a273798e64e4bf79",
+      "sha256": "3466bb9cffd5f86bcb8c33c5a164cf3634c08285ab41b22507bdb286f272cd83",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig05b_convergence_steps.png",
       "size_px": [
-        1530,
-        1013
+        1524,
+        1004
       ],
-      "sha256": "2ce53925aa069559fba2f67b51c8e38704c46be607d6b86533f71897cb79ab18",
+      "sha256": "b661dc6f4f0a6fa557a83777645e58078287c892b35c7d65dc0667d002c3360a",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig05c_adjustment_cost.png",
       "size_px": [
-        1528,
-        1013
+        1522,
+        1004
       ],
-      "sha256": "23a350ea02f1e2001c6b37ea85e461b6ecc30d8bb0c87678ba6cc9b5adca17d2",
+      "sha256": "4ca312885a5feca14c2db9aa2f060769dccac01ed9bc0cbf056b3efd4b85baf9",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig05d_episode_reward.png",
       "size_px": [
-        1530,
-        1013
+        1522,
+        1004
       ],
-      "sha256": "cc481b1d2bac188404504aa9027cd7004a0238034457c77ba086ce5a64a25eee",
+      "sha256": "c6cf3b24072d9f00648c5aa3ba39eb58d83e5015266be7e3fd6f195e59428b30",
       "source": "scripts/generate_paper_figures.py"
     },
     {
@@ -162,7 +162,7 @@
         1319,
         957
       ],
-      "sha256": "d412096d0028db914140c772adf4e1937fefca642926e6f7ce763fc6d62f94a0",
+      "sha256": "d34f5efc87ff6ddcf9575ff704fa3170b15bb9843ffcab8de96cb390d41b6ace",
       "source": "scripts/generate_paper_figures.py"
     },
     {
@@ -171,7 +171,7 @@
         1235,
         1077
       ],
-      "sha256": "89884a6e6aeb439295866ae508812dbda2106dcd556682e86d8c5b084c355cce",
+      "sha256": "df698b8a4f7f6f62f12e3ff0f6b1273f85dcc4a681129097b862e240c38673f9",
       "source": "scripts/generate_paper_figures.py"
     },
     {
@@ -180,7 +180,7 @@
         1784,
         976
       ],
-      "sha256": "1b704f0fdbfbd0783bb84ff8e8b918f89d87d7408fd2a9845045181bb2a4d9d6",
+      "sha256": "1544bb5119d5f611225bbdba5e9cfcb857ced4a172138f93ea940b8051cdb8f2",
       "source": "scripts/generate_paper_figures.py"
     },
     {
@@ -189,7 +189,7 @@
         1784,
         976
       ],
-      "sha256": "741cd463a075047fe56413bd5d58ca9ec3655cbe2b766bcb9f07ece0c229a34b",
+      "sha256": "0929ad51575072f2802b21ff8c386db8cebbdd264dd336c8b530b05855cbab2a",
       "source": "scripts/generate_paper_figures.py"
     },
     {
@@ -198,16 +198,16 @@
         1484,
         912
       ],
-      "sha256": "0f43cc3cc20d60e5cf8502fbdf9977afca7cd97513103eaa05cba5785c351533",
+      "sha256": "4e5ddf7b8941d22494fb8f5d36ef5a93b1370538f4da7a3cea62c7907e6c20e4",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "figA1d_persona_acceptance.png",
       "size_px": [
-        1634,
+        1633,
         927
       ],
-      "sha256": "d6ab7a3bd51e082629ced395c5c216a983be5bfe6e8a6f9277e59a668e76c229",
+      "sha256": "5d0ba4315a9bbffc31dfcf475e0268e28537de643cc1d7cae065907b2d7f13c4",
       "source": "scripts/generate_paper_figures.py"
     }
   ]
