@@ -31,7 +31,12 @@ def setup_style() -> None:
         {
             "font.family": "serif",
             "font.serif": ["Times New Roman", "DejaVu Serif"],
-            "font.size": 9.0,
+            "font.size": 10.5,
+            "font.weight": "semibold",
+            "axes.titleweight": "bold",
+            "xtick.labelsize": 10.0,
+            "ytick.labelsize": 10.0,
+            "legend.fontsize": 9.5,
             "axes.labelweight": "bold",
             "axes.labelcolor": "black",
             "axes.edgecolor": "black",

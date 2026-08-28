@@ -15,199 +15,199 @@
     {
       "filename": "fig02a_episode_reward.png",
       "size_px": [
-        1832,
-        980
+        1830,
+        975
       ],
-      "sha256": "0983eda4c56102b65243c2413aa4fa6a18ccd7594d3c4bf06b27e28fe9233e73",
+      "sha256": "d24a2847a99178ab5e7e9789d96ee462375ce72d0838111754501e933dd0fd84",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig02b_final_consensus.png",
       "size_px": [
-        1832,
-        980
+        1829,
+        975
       ],
-      "sha256": "af5163c9b4b20b6d14370a78d4b9c53a9677233d78b77466e366f8c502230854",
+      "sha256": "ce2561194dd4e0042900c57038afee23ec1bf7ca98d3fe4b7983bb808b6c49a6",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig02c_actor_loss.png",
       "size_px": [
-        1832,
-        980
+        1829,
+        975
       ],
-      "sha256": "c9ccc100ae01ece95224679772f5f012088d3e0a48dd231ae3a97be9cf3d7c4c",
+      "sha256": "348d6b8319378c3c15e31327c947a85178df977b8c6d69d0fe39e9422fa21b30",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig02d_critic_loss.png",
       "size_px": [
-        1832,
-        980
+        1829,
+        975
       ],
-      "sha256": "8d0895fdecfc9bd720abf10d01043ab69bcf419e3fd4cc9bfd3e6c226856aba0",
+      "sha256": "7c7cbb77468ea4d5f42a7fe44a7ca92960b7a5eb0f4238b0712fd383843c2c75",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig03a_success_rate.png",
       "size_px": [
-        1532,
-        1018
+        1529,
+        1012
       ],
-      "sha256": "15ac2b98f9dfcf721d9f40275cc0d89835dab1c9ab6e109c61722a5714e8b62d",
+      "sha256": "279aecc202fe352a8fa07714e8252a8d686fb5dd8e262b963f024c3d43ff278d",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig03b_convergence_rounds.png",
       "size_px": [
-        1532,
-        1018
+        1530,
+        1012
       ],
-      "sha256": "6b62879daf168a05c1d577071eb84ce69e03feb27776b72020e98c30298b9a2f",
+      "sha256": "9935e807c387f027a65fdddf3190be4c29a5f7679e80bdd283e4011f4a90205a",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig03c_adjustment_cost.png",
       "size_px": [
-        1532,
-        1018
+        1528,
+        1012
       ],
-      "sha256": "5a9df93abc7cb266699d88df2807affa83c10b7849cfbbd0d13d5b9b32dfed1d",
+      "sha256": "c01cdb029e3a4cad662cf28cd2ace7904bcf930d7d10dd17885fdffaa03f433c",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig03d_episode_reward.png",
       "size_px": [
-        1532,
-        1018
+        1530,
+        1012
       ],
-      "sha256": "cc0c503aae6eb3bbdc9a234f1a3dca759391f7b1126cfb57422e7fb349f9cf0f",
+      "sha256": "7cbe0bd670f19f6ea6d78581f77145987a66bddd10082327b9c20581dfe80f41",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig04a_success_rate.png",
       "size_px": [
-        1867,
-        1018
+        2044,
+        1013
       ],
-      "sha256": "df7bf421a8582bc4a693e06b1ce308ed98c76c70e66a6e6fc6867336885eeeb8",
+      "sha256": "5c6ebcaae3a016a2aeda1a0e5c4f50c947148ec57866f11f9c0421cf33850640",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig04b_convergence_steps.png",
       "size_px": [
-        1867,
-        1018
+        2044,
+        1013
       ],
-      "sha256": "a8393580a1865bf100b5c26ec5024361cb18e8f71b228d3755c52e88dd678231",
+      "sha256": "d02c9b13b53012ace38c70a7bd7424650f16e61864a6bb2149e08804050e01c6",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig04c_episode_reward.png",
       "size_px": [
-        1867,
-        1018
+        2044,
+        1013
       ],
-      "sha256": "1a87b297f7897a38b6d4b14b7be1bfd0ea2d2d3aa033681576f221ef285f3637",
+      "sha256": "87ad73c6f96213098f477c03361ae952acb206cd725bbff588dc79e249295551",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig04d_adjustment_cost.png",
       "size_px": [
-        1867,
-        1018
+        2044,
+        1013
       ],
-      "sha256": "f76ff30234cc8ef197de6b86bfe75c26c288244759cd6dbffa144d05803939c8",
+      "sha256": "f145fc97d9b960e69853c1268a8cca957498a1045a9e6d43d3a4d7a234d9b693",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig05a_success_rate.png",
       "size_px": [
-        1532,
-        1018
+        1529,
+        1013
       ],
-      "sha256": "9796f5548aaa44d12adeafdc0ee49c679224cf98be16d05f1487cd061988920c",
+      "sha256": "1df72fdba94f0f58209e08d30d6dcee73c69bb743e0687f8a273798e64e4bf79",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig05b_convergence_steps.png",
       "size_px": [
-        1532,
-        1018
+        1530,
+        1013
       ],
-      "sha256": "c40604487242c8f60f202ee0de382f29317ef3c004ed1205f9bb0320b5c0cc65",
+      "sha256": "2ce53925aa069559fba2f67b51c8e38704c46be607d6b86533f71897cb79ab18",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig05c_adjustment_cost.png",
       "size_px": [
-        1532,
-        1018
+        1528,
+        1013
       ],
-      "sha256": "26f8357d2138fdfefb32dce4f57b51feea8ddcc25be1319b7ca43247ec4e52fc",
+      "sha256": "23a350ea02f1e2001c6b37ea85e461b6ecc30d8bb0c87678ba6cc9b5adca17d2",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig05d_episode_reward.png",
       "size_px": [
-        1532,
-        1018
+        1530,
+        1013
       ],
-      "sha256": "2d9b71f5ba31491095268465ce266db6bd2c723554542892cdb2e4af3d4a9c7e",
+      "sha256": "cc481b1d2bac188404504aa9027cd7004a0238034457c77ba086ce5a64a25eee",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig06a_center_consensus.png",
       "size_px": [
-        1322,
-        960
+        1319,
+        957
       ],
-      "sha256": "33d8f8925ca07048ed82fed0dd166a256576a831aef6fa71a1f048d2615288bc",
+      "sha256": "d412096d0028db914140c772adf4e1937fefca642926e6f7ce763fc6d62f94a0",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "fig06b_hausdorff_consistency.png",
       "size_px": [
-        1202,
-        1080
+        1235,
+        1077
       ],
-      "sha256": "8e36e0194149315d5aa1361d50631b1434edb703c99a70f1da12fc390007e559",
+      "sha256": "89884a6e6aeb439295866ae508812dbda2106dcd556682e86d8c5b084c355cce",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "figA1a_ordinary_n10.png",
       "size_px": [
-        1787,
-        980
+        1784,
+        976
       ],
-      "sha256": "fbcf59bf0bdcc9a31642b3e3994014c42c321a751fce6d91fda081c47f34fbf7",
+      "sha256": "1b704f0fdbfbd0783bb84ff8e8b918f89d87d7408fd2a9845045181bb2a4d9d6",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "figA1b_polarized_n100.png",
       "size_px": [
-        1787,
-        980
+        1784,
+        976
       ],
-      "sha256": "da5c2c9d260e6185cf1668d1f922baf5fe0b595543ca9f16243f0734916ba151",
+      "sha256": "741cd463a075047fe56413bd5d58ca9ec3655cbe2b766bcb9f07ece0c229a34b",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "figA1c_persona_consensus.png",
       "size_px": [
-        1487,
-        915
+        1484,
+        912
       ],
-      "sha256": "ce37a794a33f8927aaceee86ac70f124d217e390db0e3bc369559eb68b72967e",
+      "sha256": "0f43cc3cc20d60e5cf8502fbdf9977afca7cd97513103eaa05cba5785c351533",
       "source": "scripts/generate_paper_figures.py"
     },
     {
       "filename": "figA1d_persona_acceptance.png",
       "size_px": [
-        1636,
-        930
+        1634,
+        927
       ],
-      "sha256": "55e5556c7cad46b8f118c20717f688c80cb21bba62cd7753f0b01a9b8e834f4a",
+      "sha256": "d6ab7a3bd51e082629ced395c5c216a983be5bfe6e8a6f9277e59a668e76c229",
       "source": "scripts/generate_paper_figures.py"
     }
   ]
