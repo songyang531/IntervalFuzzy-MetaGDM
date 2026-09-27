@@ -2,7 +2,7 @@
 
 面向区间模糊偏好的群体共识方法复现仓库。模型以区间中心与半宽表示成员偏好，通过 Transformer 编码最近交互历史，以社会注意力聚合可变规模成员状态，并用共享 SAC Actor-Critic 输出连续协调建议。
 
-本仓库对应论文《基于上下文编码与社会注意力的区间模糊群决策共识方法》的当前实验版本，包含论文使用的核心代码、5000 回合训练配置、冻结检查点、PPO/DDPG/SAC 基线、规则比较、区间模糊度测试、隐藏响应异质性、历史遮蔽实验、汇总数据和制图文件。
+本仓库的 `main` 分支保存论文 *A Reward Mechanism for Group Consensus Decision Making With Social Attention Under Interval-Valued Fuzzy Preferences* 所用的核心代码、原始 5000 回合训练配置与冻结检查点，以及补充的领域对比实验代码和数据。新修订的 Overleaf 稿件另行交付；仓库 `paper/` 中的旧稿是归档文件，不代表这次修订稿。
 
 ## 仓库结构
 
@@ -10,12 +10,13 @@
 | --- | --- |
 | `code/` | 区间环境、上下文编码器、社会注意力、SAC 主模型及 RL 基线 |
 | `scripts/` | 规则比较、区间审计、上下文消融、表图生成脚本 |
+| `experiments/domain_comparison_20260927/` | 三篇领域论文的受限适配、配对评估入口和独立审计脚本 |
 | `configs/` | 论文实验使用的 5000 回合参数快照 |
 | `checkpoints/` | 主模型及 N=10/40 的 PPO、DDPG、SAC 检查点 |
 | `results/` | 场景级记录、汇总表、配对置信区间与实验审计 |
 | `figures/paper/` | 论文实际使用的流程图、18 张正文数据图和 4 张附录数据图 |
 | `docs/` | 复现流程、结果血缘及论文实验映射 |
-| `paper/` | 与 `figures/paper/` 图片一致的英文论文稿件 |
+| `paper/` | 既有英文稿件归档；本轮 Overleaf 修订稿不在此目录 |
 
 ## 快速开始
 
@@ -55,7 +56,7 @@ python -m py_compile env.py model.py agent.py replay_buffer.py context_utils.py 
 
 ## 文献启发的领域对比（补充实验）
 
-[`experiments/domain_comparison_20260927/README.md`](experiments/domain_comparison_20260927/README.md) 说明三篇共识研究在本仓库共同任务中的受限适配、与原论文算法的区别、配对复跑命令和独立审计方法。原论文冻结检查点不重新训练。完整场景记录和审计见 [`results/domain_comparison_20260927_release/`](results/domain_comparison_20260927_release/)。这组探索性结果不能称为对三篇论文原生完整模型的直接胜出。
+代码以 `main` 分支为准。[`experiments/domain_comparison_20260927/README.md`](experiments/domain_comparison_20260927/README.md) 说明三篇共识研究在同一任务中的受限适配、与原论文完整算法的区别及复跑命令。入口为 [`run_all.py`](experiments/domain_comparison_20260927/run_all.py)，独立核查为 [`audit.py`](experiments/domain_comparison_20260927/audit.py)；原论文冻结检查点不重新训练。对应的 [`episodes.csv`](results/domain_comparison_20260927_release/episodes.csv)、[`trajectories.csv`](results/domain_comparison_20260927_release/trajectories.csv)、[`summary.csv`](results/domain_comparison_20260927_release/summary.csv) 和 [`audit.json`](results/domain_comparison_20260927_release/audit.json) 均在 `results/domain_comparison_20260927_release/`。这组探索性结果不能称为对三篇论文原生完整模型的直接胜出。
 
 ## 证据边界
 
