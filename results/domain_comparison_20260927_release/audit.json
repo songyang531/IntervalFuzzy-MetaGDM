@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "cases": 840,
+  "groups": 42,
+  "paired_initial_cases": 120,
+  "failures_included": 144,
+  "unsafe_member_steps": 6,
+  "physical_boundary_clipping_count": 0,
+  "trajectory_rows": 30719,
+  "checkpoint_sha256": "7127330b0a3d1ec408f27b7617317c3ea13b87fba3d6542534f05fa490623d1e",
+  "checked": [
+    "source and checkpoint hashes",
+    "frozen model state",
+    "scenario pairing",
+    "all failures",
+    "trajectory sums and AUC",
+    "member-level physical cost and standard cumulative Gini",
+    "all summary means and safety counts"
+  ]
+}

@@ -53,6 +53,10 @@ python -m py_compile env.py model.py agent.py replay_buffer.py context_utils.py 
 - 配对实验：同一方法单元共享场景种子、初始区间和成员隐藏参数。
 - 区间与历史审计使用现有 5000 回合检查点，不进行额外训练。
 
+## 文献启发的领域对比（补充实验）
+
+[`experiments/domain_comparison_20260927/README.md`](experiments/domain_comparison_20260927/README.md) 说明三篇共识研究在本仓库共同任务中的受限适配、与原论文算法的区别、配对复跑命令和独立审计方法。原论文冻结检查点不重新训练。完整场景记录和审计见 [`results/domain_comparison_20260927_release/`](results/domain_comparison_20260927_release/)。这组探索性结果不能称为对三篇论文原生完整模型的直接胜出。
+
 ## 证据边界
 
 当前论文主结果来自一个训练随机种子和每单元 50 个冻结场景。仓库保留完整规则压力测试结果，其中隐藏响应异质性显示出明显优势；噪声与反馈缺失场景则暴露了鲁棒性边界。因此，本仓库不支持“所有场景、所有指标均优于基线”的表述。

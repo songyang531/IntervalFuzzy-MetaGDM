@@ -1,0 +1,44 @@
+{
+  "design": "exploratory paired evaluation; no Meta-GDM retraining",
+  "base_seed": 20260926,
+  "training_seed": 20260507,
+  "evaluation_cases_per_cell": 20,
+  "scenarios": [
+    "iid_control",
+    "hidden_heterogeneity"
+  ],
+  "group_sizes": [
+    10,
+    40,
+    100
+  ],
+  "methods": [
+    "Meta-GDM",
+    "Guo2024 direct adaptation",
+    "Guo2024 + observed-gain adapter",
+    "FZZ2023 endpoint-L1 instantiation",
+    "FZZ2023 + observed-gain adapter",
+    "RTS2024 restricted adaptation",
+    "RTS2024 + observed-gain adapter"
+  ],
+  "checkpoint_sha256": "7127330b0a3d1ec408f27b7617317c3ea13b87fba3d6542534f05fa490623d1e",
+  "model_state_hash_before": "a8a08750085392b12a6a5245091faf3f230445d9acd9fe2a9ce89f1af31b49ef",
+  "source_sha256": {
+    "experiments\\domain_comparison_20260927\\run_all.py": "432547e1e464576f389757a891a7be7712672eb923dd3f9646b94f459e8c8db8",
+    "experiments\\domain_comparison_20260927\\run_pilot.py": "493dad372e0d08961210735ba4fda7b0282aac0426865aeb624885cc877d2381",
+    "experiments\\domain_comparison_20260927\\run_robustness.py": "6769e6edb6088951d1068823cc0141a369669039586a0324d68135280432ab1d",
+    "experiments\\domain_comparison_20260927\\fzz_mcc.py": "640ce51f05e266866d07e154b13421063b31b9c78db0798c9bd9f547bffe5e63",
+    "experiments\\domain_comparison_20260927\\robust_cost.py": "0685b5062136e934d35aaa8a24dd4952769093fb077a4b2660392891df226efd",
+    "experiments\\domain_comparison_20260927\\interval_qp.py": "475fa161f95b0531bbacb99a8560bbe68f3cbc9ff0f8e1c56250cff2f1a9ea4f",
+    "code\\env.py": "d7fb17d860b8234d3330a563bbfdb8a92d1e7b730922181b8b2db5f25ded7916",
+    "code\\agent.py": "10df121655008776261a5324a8ccf073afd1ba77f045faa7130c04419754ac9b",
+    "scripts\\run_stage1_meta_vs_rules.py": "202c9dd346e99e1a027a1d1a2f86856fd3d1e6c2e64911d1df32b15597c58e70"
+  },
+  "success_threshold": 0.9,
+  "horizon": 120,
+  "cost": "nonlinear physical cost of realized response movements",
+  "fairness": "standard Gini of per-member cumulative physical cost",
+  "method_boundary": "Guo and RTS are restricted common-task adaptations; FZZ is a framework instantiation. Observed-gain compensation is an external shared adapter, not an element of any cited paper. Shen payment RL is not tested.",
+  "model_state_hash_after": "a8a08750085392b12a6a5245091faf3f230445d9acd9fe2a9ce89f1af31b49ef",
+  "elapsed_seconds": 99.71032452583313
+}
